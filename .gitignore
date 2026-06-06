@@ -1,3 +1,6 @@
+# Lovable config
+.lovable/
+
 # Logs
 logs
 *.log

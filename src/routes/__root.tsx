@@ -10,7 +10,6 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
-import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
   return (
@@ -37,9 +36,6 @@ function NotFoundComponent() {
 function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   console.error(error);
   const router = useRouter();
-  useEffect(() => {
-    reportLovableError(error, { boundary: "tanstack_root_error_component" });
-  }, [error]);
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -84,7 +80,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "Portfolio of Pavani Naidu, Full Stack Developer and Computer Science student at Malla Reddy University." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@pavani-naidu" },
       { name: "twitter:title", content: "Pavani Naidu — Full Stack Developer" },
       { name: "twitter:description", content: "Portfolio of Pavani Naidu, Full Stack Developer and Computer Science student at Malla Reddy University." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/03c52851-9788-41d1-a660-2ae3566153b6/id-preview-f55c978a--c082b500-1271-4750-8cac-6c38d4fe1265.lovable.app-1780720679498.png" },
