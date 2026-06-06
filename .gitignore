@@ -1,6 +1,9 @@
 # Lovable config
 .lovable/
 
+# Netlify local build directory
+.netlify/
+
 # Logs
 logs
 *.log
