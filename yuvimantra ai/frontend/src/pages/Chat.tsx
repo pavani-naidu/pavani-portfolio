@@ -324,7 +324,7 @@ export const Chat: React.FC = () => {
           {messages.length === 0 ? (
             <div className="h-full flex flex-col items-center justify-center text-center p-6 max-w-lg mx-auto">
               <Sparkles className="w-10 h-10 text-brand-primary mb-4 animate-bounce" />
-              <h3 className="font-extrabold text-lg">YuviMantra Companion AI</h3>
+              <h3 className="font-extrabold text-lg">Yuvi Mantra Companion AI</h3>
               <p className="text-slate-400 text-xs mt-2 leading-relaxed">
                 "Hello! I am your companion. I am here to help you unpack study stress, organize assignments, or just chat. Remember, I am an AI friend and not a therapist."
               </p>
@@ -458,7 +458,7 @@ export const Chat: React.FC = () => {
                 <span className="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce"></span>
                 <span className="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce [animation-delay:0.2s]"></span>
                 <span className="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce [animation-delay:0.4s]"></span>
-                YuviMantra is reflecting...
+                Yuvi Mantra is reflecting...
               </div>
             </div>
           )}
@@ -482,7 +482,7 @@ export const Chat: React.FC = () => {
 
             <input
               type="text"
-              placeholder={isRecording ? 'Listening...' : 'Type a message to YuviMantra...'}
+              placeholder={isRecording ? 'Listening...' : 'Type a message to Yuvi Mantra...'}
               value={inputText}
               onChange={(e) => setInputText(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && handleSendMessage()}

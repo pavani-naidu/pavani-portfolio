@@ -66,7 +66,7 @@ export const Landing: React.FC = () => {
       <header className="max-w-7xl mx-auto w-full px-6 py-6 flex items-center justify-between z-10">
         <div className="flex items-center gap-2">
           <Sparkles className="w-6 h-6 text-brand-primary" />
-          <span className="font-extrabold text-xl tracking-tight text-gradient">YuviMantra AI</span>
+          <span className="font-extrabold text-xl tracking-tight text-gradient">Yuvi Mantra AI</span>
         </div>
         <div className="flex items-center gap-4">
           <Link to="/login" className="text-sm font-semibold text-slate-300 hover:text-white transition-colors">
@@ -106,7 +106,7 @@ export const Landing: React.FC = () => {
             variants={itemVariants}
             className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Meet YuviMantra AI—your emotional wellness, productivity, and study companion. Navigate stress, build healthy habits, and master your classes with support by your side.
+            Meet Yuvi Mantra AI—your emotional wellness, productivity, and study companion. Navigate stress, build healthy habits, and master your classes with support by your side.
           </motion.p>
 
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center mb-20">
@@ -150,9 +150,9 @@ export const Landing: React.FC = () => {
 
       {/* Footer */}
       <footer className="border-t border-white/5 bg-slate-950 py-8 text-center text-xs text-slate-500 z-10">
-        <p>&copy; {new Date().getFullYear()} YuviMantra AI. Built for student wellness.</p>
+        <p>&copy; {new Date().getFullYear()} Yuvi Mantra AI. Built for student wellness.</p>
         <p className="mt-1.5 text-[10px] text-slate-600 max-w-md mx-auto px-4">
-          Disclaimer: YuviMantra AI is an emotional wellness helper, not a substitute for professional therapy or medical diagnostics.
+          Disclaimer: Yuvi Mantra AI is an emotional wellness helper, not a substitute for professional therapy or medical diagnostics.
         </p>
       </footer>
     </div>

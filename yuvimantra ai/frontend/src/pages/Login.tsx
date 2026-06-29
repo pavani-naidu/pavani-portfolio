@@ -66,7 +66,7 @@ export const Login: React.FC = () => {
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center gap-2 mb-4">
             <Sparkles className="w-8 h-8 text-brand-primary animate-pulse" />
-            <span className="font-extrabold text-3xl tracking-tight text-gradient">YuviMantra</span>
+            <span className="font-extrabold text-3xl tracking-tight text-gradient">Yuvi Mantra</span>
           </Link>
           <h2 className="text-2xl font-bold tracking-tight">Welcome back</h2>
           <p className="text-slate-400 text-sm mt-1">"A Friend Who Listens. An AI That Cares."</p>
@@ -166,7 +166,7 @@ export const Login: React.FC = () => {
 
         {/* Footer Link */}
         <p className="text-center text-xs text-slate-400 mt-6 font-medium">
-          New to YuviMantra?{' '}
+          New to Yuvi Mantra?{' '}
           <Link to="/signup" className="text-brand-primary hover:underline font-bold">
             Create an account
           </Link>

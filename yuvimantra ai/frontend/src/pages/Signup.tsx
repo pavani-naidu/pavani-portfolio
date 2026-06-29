@@ -75,7 +75,7 @@ export const Signup: React.FC = () => {
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center gap-2 mb-4">
             <Sparkles className="w-8 h-8 text-brand-primary animate-pulse" />
-            <span className="font-extrabold text-3xl tracking-tight text-gradient">YuviMantra</span>
+            <span className="font-extrabold text-3xl tracking-tight text-gradient">Yuvi Mantra</span>
           </Link>
           <h2 className="text-2xl font-bold tracking-tight">Create your account</h2>
           <p className="text-slate-400 text-sm mt-1">Join our wellness & study companion platform</p>
@@ -88,7 +88,7 @@ export const Signup: React.FC = () => {
               <div className="w-12 h-12 bg-emerald-500/20 text-emerald-400 border border-emerald-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Sparkles className="w-6 h-6 animate-spin-slow" />
               </div>
-              <h3 className="text-lg font-bold text-slate-100">Welcome to YuviMantra!</h3>
+              <h3 className="text-lg font-bold text-slate-100">Welcome to Yuvi Mantra!</h3>
               <p className="text-slate-400 text-xs mt-2 leading-relaxed">
                 Account created successfully. A verification email has been queued (mocked). Redirecting you to your dashboard...
               </p>

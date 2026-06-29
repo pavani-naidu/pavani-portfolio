@@ -89,7 +89,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
       <div className="md:hidden flex items-center justify-between p-4 bg-slate-900 border-b border-white/5 sticky top-0 z-50">
         <Link to="/dashboard" className="flex items-center gap-2">
           <Sparkles className="w-6 h-6 text-brand-primary" />
-          <span className="font-extrabold text-xl tracking-tight text-gradient">YuviMantra AI</span>
+          <span className="font-extrabold text-xl tracking-tight text-gradient">Yuvi Mantra AI</span>
         </Link>
         <div className="flex items-center gap-4">
           <button onClick={toggleTheme} className="text-slate-400 hover:text-white">
@@ -111,7 +111,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
           {/* Logo */}
           <Link to="/dashboard" className="hidden md:flex items-center gap-2 mb-8 px-2 py-1">
             <Sparkles className="w-7 h-7 text-brand-primary animate-pulse" />
-            <span className="font-extrabold text-2xl tracking-tight text-gradient">YuviMantra</span>
+            <span className="font-extrabold text-2xl tracking-tight text-gradient">Yuvi Mantra</span>
           </Link>
 
           {/* User Widget */}
