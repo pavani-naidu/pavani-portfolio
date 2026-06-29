@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const journalController_1 = require("../controllers/journalController");
+const auth_1 = require("../middleware/auth");
+const router = (0, express_1.Router)();
+router.use(auth_1.authenticateToken);
+router.post('/', journalController_1.createJournal);
+router.get('/', journalController_1.getJournals);
+router.get('/:id', journalController_1.getJournalById);
+router.put('/:id', journalController_1.updateJournal);
+router.delete('/:id', journalController_1.deleteJournal);
+router.put('/:id/favorite', journalController_1.toggleFavorite);
+exports.default = router;

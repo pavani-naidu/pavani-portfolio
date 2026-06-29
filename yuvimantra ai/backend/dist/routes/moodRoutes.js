@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const moodController_1 = require("../controllers/moodController");
+const auth_1 = require("../middleware/auth");
+const router = (0, express_1.Router)();
+router.use(auth_1.authenticateToken);
+router.post('/', moodController_1.logMood);
+router.get('/', moodController_1.getMoods);
+router.get('/analytics', moodController_1.getMoodAnalytics);
+exports.default = router;
