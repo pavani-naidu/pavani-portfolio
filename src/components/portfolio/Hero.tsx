@@ -56,7 +56,7 @@ export function Hero() {
 
       {/* Top Corner Details */}
       <div className="absolute top-10 right-8 text-[9px] tracking-[0.4em] font-mono text-foreground/40 uppercase">
-        Pavani Naidu &copy; 2026
+        Yuvi Mantra &copy; 2026
       </div>
 
       <div className="relative max-w-7xl w-full mx-auto grid lg:grid-cols-[1.3fr_1fr] gap-16 items-center z-10">
@@ -79,9 +79,9 @@ export function Hero() {
               transition={{ delay: 0.2, duration: 0.8 }}
               className="font-display text-[12vw] sm:text-[5rem] md:text-[6.5rem] lg:text-[7.5rem] leading-[0.9] tracking-tighter text-foreground"
             >
-              PAVANI
+              YUVI
               <br />
-              NAIDU<span className="text-foreground/40">.</span>
+              MANTRA<span className="text-foreground/40">.</span>
             </motion.h1>
             
             <motion.div

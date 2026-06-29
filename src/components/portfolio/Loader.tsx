@@ -23,7 +23,7 @@ export function Loader() {
               animate={{ opacity: 1, y: 0 }}
               className="text-5xl md:text-7xl font-display text-foreground uppercase"
             >
-              Pavani Naidu
+              Yuvi Mantra
             </motion.h1>
             <motion.p
               key={stage}

@@ -9,7 +9,7 @@ export function About() {
         <Reveal>
           <div className="glass rounded-3xl p-8 md:p-14 space-y-6 text-lg leading-relaxed text-foreground/90">
             <p>
-              I'm <span className="text-accent font-semibold font-display-sub">Pavani Naidu</span>, a Full Stack Developer driven by curiosity, creativity, and continuous learning. Currently pursuing Computer Science Engineering (Blockchain Technology) at Malla Reddy University, I enjoy building modern web applications that combine functionality with great user experiences.
+              I'm <span className="text-accent font-semibold font-display-sub">Yuvi Mantra</span>, a Full Stack Developer driven by curiosity, creativity, and continuous learning. Currently pursuing Computer Science Engineering (Blockchain Technology) at Malla Reddy University, I enjoy building modern web applications that combine functionality with great user experiences.
             </p>
             <p className="text-muted-foreground">
               From crafting responsive websites to strengthening my problem-solving skills through DSA and Java, I believe every line of code is a step toward something bigger. My journey is fueled by the ambition to become a software engineer who builds products that people love to use and remember.
@@ -183,7 +183,7 @@ export function Contact() {
           initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
           className="mt-20 text-center text-sm text-muted-foreground"
         >
-          <p>© 2026 Pavani Naidu</p>
+          <p>© 2026 Yuvi Mantra</p>
           <p className="mt-1">Crafted with passion, creativity, and code.</p>
         </motion.footer>
       </div>
