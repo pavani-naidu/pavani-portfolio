@@ -10,9 +10,9 @@ import { OceanFlowCard } from "@/components/portfolio/OceanFlowCard";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Yuvi Mantra — Full Stack Developer" },
-      { name: "description", content: "Portfolio of Yuvi Mantra — Full Stack Developer, CSE student at Malla Reddy University." },
-      { property: "og:title", content: "Yuvi Mantra — Full Stack Developer" },
+      { title: "Pavani Naidu — Full Stack Developer" },
+      { name: "description", content: "Portfolio of Pavani Naidu — Full Stack Developer, CSE student at Malla Reddy University." },
+      { property: "og:title", content: "Pavani Naidu — Full Stack Developer" },
       { property: "og:description", content: "Building tomorrow through code. Projects, skills, and the journey of a future software engineer." },
     ],
   }),
